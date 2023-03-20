@@ -1,0 +1,5 @@
+*.log
+*old
+config_v2
+media_server/*
+ssh_keys/*

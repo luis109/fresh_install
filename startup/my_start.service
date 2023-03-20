@@ -1,0 +1,9 @@
+[Unit]
+Description=Startup script launch in systemd.
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/bash /home/luis/my_start_script.sh
+
+[Install]
+WantedBy=multi-user.target
