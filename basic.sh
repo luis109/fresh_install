@@ -110,8 +110,10 @@ echoNote "Finished Spotify"
 
 ## --------------------------------------------------------  ##
 echoSection "Docker"
-apt_install docker docker.io docker-compose
-sudo usermod -aG docker ${USER}
+# apt_install docker docker.io docker-compose
+# sudo usermod -aG docker ${USER}
+curl -fsSL https://get.docker.com -o get-docker.sh
+sh get-docker.sh
 echoIfError "Error installing Docker"
 echoNote "Finished Docker"
 
