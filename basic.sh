@@ -12,7 +12,7 @@ MEDIA_DISK_MOUNTPOINT=/media/Fat_Man
 MEDIA_SERVER_MEDIADIR=$MEDIA_DISK_MOUNTPOINT/media
 MEDIA_SERVER_USERDIR=~/docker
 
-LINKS_SPOTIFY_KEY=https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg
+LINKS_SPOTIFY_KEY=https://download.spotify.com/debian/pubkey_7A3A762FAFD4A51F.gpg
 
 ## --------------------------------------------------------  ##
 ## --------------------------------------------------------  ##
